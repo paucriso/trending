@@ -1,0 +1,28 @@
+header {
+    background-color: #f0b800;
+    font-family: 'RobotoCondensed', sans-serif;
+    padding: 10px 0;
+}
+
+.phone {
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 300;
+    text-align: right;
+}
+
+nav a {
+    font-family: 'RobotoCondensed', sans-serif;
+    color: #1b1b1f;
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 700;
+}
+
+li {
+    margin-right: 20px;
+}
+
+li:last-child {
+    margin-right: 0;
+}
