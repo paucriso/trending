@@ -7,3 +7,31 @@
 .swiper-button-next, .swiper-button-prev {
     color: white;
 }
+
+svg text {
+    stroke: #1b1b1f;
+    font-size: 150px;
+    font-weight: 700;
+    stroke-width: 5px;
+    animation: textAnimate 3s, fill 2s linear forwards 0.5s;
+}
+
+@keyframes textAnimate {
+    0% {
+        stroke-dasharray: 0 50%;
+    }
+
+    100% {
+        stroke-dasharray: 50% 0;
+    }
+}
+
+@keyframes fill {
+    from {
+        fill: transparent;
+    }
+
+    to {
+        fill: #1b1b1f;
+    }
+}

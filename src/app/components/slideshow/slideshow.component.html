@@ -3,17 +3,34 @@
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
         <!-- Slides -->
-        <div class="swiper-slide">Slide 1</div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
-        ...
+        <div class="swiper-slide">
+            <svg viewBox="0 0 1350 600">
+                <text x="50%" y="50%" fill="transparent" text-anchor="middle">
+                    Diseño Web
+                </text>
+            </svg>
+        </div>
+        <div class="swiper-slide">
+            <svg viewBox="0 0 1350 600">
+                <text x="50%" y="50%" fill="transparent" text-anchor="middle">
+                    Marketing
+                </text>
+            </svg>
+        </div>
+        <div class="swiper-slide">
+            <svg viewBox="0 0 1350 600">
+                <text x="50%" y="50%" fill="transparent" text-anchor="middle">
+                    SEO
+                </text>
+            </svg>
+        </div>
     </div>
     <!-- If we need pagination -->
     <div class="swiper-pagination"></div>
 
     <!-- If we need navigation buttons -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev" (click)="mySwiper.slidePrev()"></div>
+    <div class="swiper-button-next" (click)="mySwiper.slideNext()"></div>
 
     <!-- If we need scrollbar -->
     <div class="swiper-scrollbar"></div>

@@ -7,11 +7,11 @@ import { Swiper } from 'swiper';
   styleUrls: ['./slideshow.component.css']
 })
 export class SlideshowComponent implements OnInit, AfterViewInit {
-
+  public mySwiper: Swiper;
   constructor() { }
 
   ngAfterViewInit(): void {
-    const mySwiper = new Swiper('.swiper-container', {
+    this.mySwiper = new Swiper('.swiper-container', {
       loop: true
     });
   }
