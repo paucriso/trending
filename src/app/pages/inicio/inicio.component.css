@@ -1,0 +1,15 @@
+main {
+    text-align: center;
+}
+
+h1  {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 36px;
+    line-height: 39px;
+    font-weight: bold;
+}
+
+h1 span {
+    color: #f0b800;
+}
+
